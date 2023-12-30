@@ -1,0 +1,69 @@
+<div class="h-28 bg-gradient-to-r from-pink-200 via-red-300 to-purple-300 opacity-30 blur-2xl"></div>
+<header class="fixed inset-x-0 top-0 z-50 mx-auto mt-5 w-11/12 rounded-3xl border backdrop-blur-lg lg:w-2/3">
+  <nav class="flex items-center justify-between p-2 lg:px-3" aria-label="Global">
+    <div class="flex items-center lg:flex-1">
+      <div class="flex h-12 w-12 items-center justify-center rounded-xl border border-purple-100 bg-white bg-opacity-100">
+      <a href="https://www.sarya.com/">
+      <!--"https://cycls.github.io/website/img/logo.svg"-->
+      <img class="h-7" src="img/logo.svg" alt="logo" /></div></a>
+      <a href="https://www.sarya.com/"><img class="ml-2 mt-1 h-6" src="img/sarya.svg" alt="sarya" /></a>
+    </div>
+    <div class="flex gap-x-7">
+      <a href="https://superchat.sarya.com/" target="_blank" class="hidden text-base leading-6 text-purple-950 hover:text-purple-800 sm:block -tracking-wider" style="font-family:'BROmny-Regular';">Superchat</a>
+      <a href="https://superchat.sarya.com/" target="_blank" class="hidden text-base leading-6 text-purple-950 hover:text-purple-800 sm:block -tracking-wider" style="font-family:'BROmny-Regular';">Solutions</a>
+      <a href="https://docs.sarya.com/" target="_blank" class="hidden text-base leading-6 text-purple-950 hover:text-purple-800 sm:block -tracking-wider" style="font-family:'BROmny-Regular';">Docs</a>
+      <a href="https://www.blog.sarya.com/" target="_blank" class="hidden text-base leading-6 text-purple-950 hover:text-purple-800 sm:block -tracking-wider" style="font-family:'BROmny-Regular';">Blog</a>
+      <a href="/pricing" class="hidden text-base leading-6 text-purple-950 hover:text-purple-800 sm:block -tracking-wider" style="font-family:'BROmny-Regular';">Pricing</a>
+    </div>
+    <div class="flex flex-1 justify-end items-center gap-4">
+      <a href="https://platform.sarya.com/auth/login" target="_blank" class="hidden md:block text-base leading-6 text-purple-950 hover:text-purple-800 -tracking-wider" style="font-family:'BROmny-Regular';">Login</a>
+      <a href="https://platform.sarya.com/auth/signup" target="_blank" class="hidden md:block bg-white bg-opacity-35 text-purple-950 shadow-sm p-2 rounded-xl text-base leading-6  hover:text-purple-800 -tracking-wider" style="font-family:'BROmny-Regular';">Get started</a>
+
+      <button id="hamburger" onclick="toggleNav()" class="flex h-4 w-6 cursor-pointer flex-col justify-between border-none bg-transparent lg:hidden mr-3">
+        <span class="block h-0.5 w-full bg-purple-950"></span>
+        <span class="block h-0.5 w-full bg-purple-950"></span>
+        <span class="block h-0.5 w-full bg-purple-950"></span>
+      </button>
+
+
+
+      
+    </div>
+  </nav>
+</header>
+
+<!-- <div id="mobileNav" class="fixed top-0 left-0 w-full h-full transform -translate-x-full transition-transform duration-300 ease-in-out mt-28 z-10 bg-black">
+    <ul class="text-gray-200 text-xl -tracking-wider pt-3" style="font-family:'BROmny-Regular';">
+        <li class="p-5">Superchat</li>
+        <li class="p-5">Solutions</li>
+        <li class="p-5">Docs</li>
+        <li class="p-5">Pricing</li>
+
+        <li class="p-5">Login</li>
+       <li class="p-5">Get Started</li>
+    </ul>
+</div> -->
+
+<div id="mobileNav" class="fixed top-0 left-0 w-full h-full transform -translate-x-full transition-transform duration-300 ease-in-out mt-28 z-10 bg-black flex flex-col pb-28">
+    <ul class="text-gray-200 text-xl tracking-wider pt-3" style="font-family:'BROmny-Regular';">
+      <a href="https://superchat.sarya.com/" target="_blank"><li class="p-5">Superchat</li></a>
+      <a href="/superchat"><li class="p-5">Solutions</li></a>
+      <a href="https://docs.sarya.com/" target="_blank"><li class="p-5">Docs</li></a>
+      <a href="https://www.blog.sarya.com/" target="_blank"><li class="p-5">Blog</li></a>
+      <a href="/pricing"><li class="p-5">Pricing</li></a>
+    </ul>
+
+    <!-- Auto Spacer -->
+    <div class="flex-grow"></div>
+
+    <ul class="text-gray-200 text-xl tracking-wider pb-3">
+      <a href="https://platform.sarya.com/auth/login"><li class="px-5 py-2">Login</li></a>
+      <a href="https://platform.sarya.com/auth/signup"><li class="px-5 py-2">Get Started</li></a>
+    </ul>
+</div>
+
+<div class="flex justify-center">
+  <div class="relative rounded-full bg-transparent px-3 py-1 text-sm font-light leading-6 text-gray-500 border lg:block">
+    Announcing early access to our SDK. <a href="https://platform.sarya.com/auth/signup" target="_blank" class="font-medium text-gray-500 hover:text-gray-800">More <span aria-hidden="true">→</span></a>
+  </div>
+</div>
