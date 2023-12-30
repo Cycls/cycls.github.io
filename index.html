@@ -1,0 +1,161 @@
+---
+layout: default
+title: Sarya - Generative UI for your AI
+---
+<div class="mx-auto w-11/12">
+  <!-- <div class="flex justify-center">
+  <div class="relative rounded-full bg-transparent px-3 py-1 text-sm font-semibold leading-6 text-gray-700 ring-1 ring-gray-900/10 hover:ring-gray-900/20 lg:block">
+    Announcing early access to our SDK. <a href="https://platform.sarya.com/auth/signup" target="_blank" class="font-semibold text-purple-900">More <span aria-hidden="true">→</span></a>
+  </div>
+</div> -->
+  <div class="mx-auto max-w-2xl mt-10 pt-48 lg:pt-28">
+    <div class="text-center">
+      <div class="-mr-6 -mt-14 h-10 w-10 rounded-full bg-gradient-to-r from-pink-300 to-purple-400 lg:hidden"></div>
+      <div class="-mt-52 h-28 w-28 rounded-full bg-gradient-to-r from-yellow-200 to-orange-400 lg:hidden"></div>
+      <div class="flex items-center justify-center">
+        <div class="-mr-6 -mt-14 hidden h-10 w-10 rounded-full bg-gradient-to-r from-pink-300 to-purple-400 lg:block"></div>
+        <div class="-mt-52 hidden h-28 w-28 rounded-full bg-gradient-to-r from-yellow-200 to-orange-400 lg:block"></div>
+        <div class="text-right text-5xl tracking-tighter text-gray-600 lg:text-7xl" style="font-family:'BROmny-Regular';">
+          Generative UI<br />
+          for your AI
+        </div>
+      </div>
+      <p class="mx-auto py-16 text-lg font-medium leading-8 tracking-wide text-gray-500 lg:text-2xl" style="font-family:'BROmny-Regular';">
+        Design, publish, share, and monetize<br />
+        customer facing AI apps with Sarya
+      </p>
+      <div class="flex items-center justify-center gap-x-6">
+        <a href="https://platform.sarya.com/auth/signup" target="_blank" class="rounded-xl border bg-transparent px-3.5 py-2.5 text-base text-purple-950 hover:text-purple-800 shadow-md hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 -tracking-wide" style="font-family:'BROmny-Regular';">Get started</a>
+        <span class="text-sm font-semibold leading-6 text-gray-700">Learn more&nbsp;&nbsp;&nbsp;↓</span>
+      </div>
+    </div>
+    <!-- <a></a> -->
+    <div class="pt-52">
+      <!-- <b></b> -->
+      <p class="mx-auto text-center text-base font-medium leading-8 text-orange-500">MORE WITH LESS</p>
+      <p class="mx-auto pb-5 text-center text-3xl font-medium leading-8 text-gray-600">Just focus on your code</p>
+      <p class="mx-auto text-center text-xl leading-9 text-gray-600">
+        Sarya introduces a new programming<br class="hidden" />
+        model for<br class="hidden lg:block" />
+        designing UIs for AI powered apps
+      </p>
+
+      <pre class="m-3 mb-2 overflow-x-auto rounded-lg border bg-black p-2 px-4">
+<code><span class="text-gray-200">pip install sarya</span></code></pre>
+
+      <pre class="m-3 mb-2 overflow-x-auto rounded-lg border bg-black p-3">
+<code><span class="text-pink-500">from</span> <span class="text-gray-300">sarya</span> <span class="text-pink-500">import</span> <span class="text-gray-300">Sarya</span><span class="text-gray-300">,</span> <span class="text-gray-300">UI</span>
+
+<span class="text-gray-300">sarya</span> <span class="text-gray-300">=</span> <span class="text-gray-300">Sarya</span><span class="text-gray-300">(</span><span class="text-orange-400">"SECRET"</span><span class="text-gray-300">)</span>
+
+<span class="text-purple-400">@</span><span class="text-purple-400">sarya</span><span class="text-gray-300">.</span><span class="text-gray-300">name</span><span class="text-orange-400"><span class="text-gray-300">(</span>"@my-app"</span><span class="text-gray-300">)</span>
+<span class="text-pink-500">def</span> <span class="text-gray-300">app</span><span class="text-gray-300">():</span>
+  <span class="text-gray-600"># your AI logic</span>
+  <span class="text-pink-500">return</span> <span class="text-gray-300">UI</span><span class="text-gray-300">.</span><span class="text-gray-300">Image</span><span class="text-gray-300">(</span><span class="text-orange-400">"desert.png"</span><span class="text-gray-300">)</span>
+
+<span class="text-gray-300">sarya</span><span class="text-gray-300">.</span><span class="text-gray-300">run</span><span class="text-gray-300">()</span></code>
+</pre>
+      <p class="mx-auto px-10 pb-10 text-center text-sm leading-7 text-gray-500">Simply make Sarya SDK calls alongside your AI logic, and Sarya will automatically generate UIs in your browser</p>
+
+      <!-- <b></b> -->
+      <div class="mb-10 text-center text-xl text-gray-600">↓</div>
+      <div class="flex items-start p-1 pl-4">
+        <div class="p-2">
+          <div class="h-8 w-8 rounded-full bg-gradient-to-r from-pink-300 to-purple-400"></div>
+        </div>
+        <div class="rounded-2xl border border-gray-200 p-2 px-4">
+          <span>Hi 👋, take me to</span> <span class="font-semibold">@my-app</span>
+          <p class="pt-2 text-right text-xs text-gray-400">@you 7:28 PM ✓</p>
+        </div>
+      </div>
+      <div class="flex items-start p-1 pl-4">
+        <div class="p-2">
+          <div class="h-8 w-8 rounded-full bg-gradient-to-r from-yellow-200 to-orange-400"></div>
+        </div>
+        <div class="rounded-2xl border border-gray-200 p-2 px-4">
+          <span>Switched to</span> <span class="font-semibold">@my-app</span>
+          <p class="pt-2 text-right text-xs text-gray-400">@sarya 7:28 PM ✓</p>
+        </div>
+      </div>
+      <div class="relative mb-1">
+        <div class="absolute inset-0 flex items-center px-12 lg:px-20" aria-hidden="true">
+          <div class="w-full border-t border-gray-200"></div>
+        </div>
+        <div class="relative flex justify-center">
+          <span class="bg-gray-50 px-3 py-1 text-sm text-gray-400">@my-app</span>
+        </div>
+      </div>
+      <div class="flex items-start p-1 pl-4">
+        <div class="p-2">
+          <div class="h-8 w-8 rounded-full bg-gradient-to-r from-pink-300 to-purple-400"></div>
+        </div>
+        <div class="rounded-2xl border border-gray-200 p-2 px-4">
+          <span>Show me a cool picture</span>
+          <p class="pt-2 text-right text-xs text-gray-400">@you 7:28 PM ✓</p>
+        </div>
+      </div>
+      <div class="flex items-start p-1 pl-4">
+        <div class="p-2">
+          <div class="h-8 w-8 rounded-full bg-gradient-to-r from-yellow-200 to-orange-400"></div>
+        </div>
+        <div class="rounded-xl border border-gray-200 p-2 px-2">
+          <img class="w-96 rounded-xl" src="https://cycls.github.io/website/img/desert.jpeg" alt="0" />
+          <p class="pt-2 text-right text-xs text-gray-400">@my-app 7:28 PM ✓</p>
+        </div>
+      </div>
+
+      <div class="flex flex-col items-center">
+        <!-- <p class="mb-2 pt-14 text-center text-xl leading-9 text-orange-500">Instantly share with everyone</p> -->
+        <a href="#"> <p class="under py-1 pt-14 text-center text-lg font-bold leading-9 text-gray-800 underline">chat.sarya.com/@my-app</p></a>
+        <p class="mx-auto mb-2 text-center text-lg font-medium leading-8 text-orange-500">"Instantly share with everyone"</p>
+      </div>
+    </div>
+    <!-- <img class="w-96 rounded-xl" src="https://docs.sarya.com/assets/images/how-61df372c99bbe066169a97f8c3281b50.png" alt="0" /> -->
+
+    <!-- <a></a> -->
+  </div>
+
+  <div class="mx-auto bg-transparent pt-14 lg:w-2/3">
+    <div class="mx-auto max-w-7xl rounded-2xl border px-6 py-5 lg:px-8">
+      <div class="mx-auto max-w-2xl lg:mx-0">
+        <h2 class="text-base font-medium leading-7 text-orange-500">MADE FOR DEVELOPERS</h2>
+        <h2 class="text-3xl font-bold tracking-tight text-gray-700 sm:text-4xl">AI ∕ UI Platform</h2>
+        <p class="mt-6 text-lg leading-8 text-gray-600">Sarya provides more than just a UI library for your AI app. As a publishing platform, we take on the entire launching process for you.</p>
+      </div>
+      <dl class="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 text-base leading-7 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3">
+        <div>
+          <dt class="font-semibold text-gray-900">100% control over your code</dt>
+          <dd class="mt-1 text-gray-600">Sarya is a two-tier architecture. Maintain your app logic and data on your infrastructure, while Sarya manages the UI rendering.</dd>
+        </div>
+        <div>
+          <dt class="font-semibold text-gray-900">Automated UI generation</dt>
+          <dd class="mt-1 text-gray-600">Sarya SDK is an intuitive approach to quickly build powerful UIs that integrate seamlessly with your AI logic. No frontend code required.</dd>
+        </div>
+        <div>
+          <dt class="font-semibold text-gray-900">Instant sharing & monetization</dt>
+          <dd class="mt-1 text-gray-600">Instantly share your customer-facing AI apps with Sarya for monetization and broader audience reach.</dd>
+        </div>
+        <div>
+          <dt class="font-semibold text-gray-900">Data & analytics</dt>
+          <dd class="mt-1 text-gray-600">Measure your app's performance and discover insights easily. Use data to understand user trends and finetune your AI for better results.</dd>
+        </div>
+        <div>
+          <dt class="font-semibold text-gray-900"><span>Cross-platform </span><span class="inline-flex items-center rounded-md bg-gray-50 px-2 py-1 text-xs font-medium text-pink-600 ring-1 ring-inset ring-pink-500/10">in-progress</span></dt>
+          <dd class="mt-1 text-gray-600">Sarya currently is web-based. Mobile support for iOS and Android is underway. Sarya chat will also be accessible on apps like WhatsApp and Discord.</dd>
+        </div>
+        <div>
+          <dt class="font-semibold text-gray-900"><span>Multimodal I/O </span><span class="inline-flex items-center rounded-md bg-gray-50 px-2 py-1 text-xs font-medium text-pink-600 ring-1 ring-inset ring-pink-500/10">in-progress</span></dt>
+          <dd class="mt-1 text-gray-600">Starting with textual input, the platform will expand to support voice, image, and video data inputs.</dd>
+        </div>
+      </dl>
+    </div>
+  </div>
+
+  <div class="flex flex-col items-center pb-32 pt-5">
+    <p class="mx-auto mb-2 py-2 pt-14 text-center text-lg font-semibold leading-8 text-gray-900">Get started with with early access</p>
+    <!-- <a href="https://platform.sarya.com/auth/signup" target="_blank" class="rounded-xl border bg-transparent px-3.5 py-2.5 text-sm font-semibold text-gray-700 shadow-lg hover:bg-gray-800 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Sign-up</a> -->
+    <a href="https://platform.sarya.com/auth/signup" target="_blank" class="rounded-xl border bg-transparent px-3.5 py-2.5 text-base text-purple-950 hover:text-purple-800 shadow-md hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 -tracking-wide" style="font-family:'BROmny-Regular';">Get started</a>
+
+    <!-- <a href="https://platform.sarya.com/auth/signup" target="_blank" class="rounded-xl border bg-black px-3.5 py-2.5 text-sm font-semibold text-gray-200 shadow-sm hover:bg-black hover:text-white focus-visible:outline focus-visible:outline-2">Get started</a> -->
+  </div>
+</div>
