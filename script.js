@@ -10,6 +10,7 @@ window.intercomSettings = {
 
 
 //======= Google 
+//======== Google Analytics
 var script = document.createElement('script');
 script.src = 'https://www.googletagmanager.com/gtag/js?id=G-EGHX21RZ4N';
 script.async = true;
@@ -19,7 +20,14 @@ function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 
 gtag('config', 'G-EGHX21RZ4N');
-
+//======== Google Ads
+var adsScript = document.createElement('script');
+adsScript.src = 'https://www.googletagmanager.com/gtag/js?id=AW-11060586635';
+adsScript.async = true;
+document.head.appendChild(adsScript);
+// No need to redefine window.dataLayer or gtag function if already defined above
+gtag('js', new Date());
+gtag('config', 'AW-11060586635');
 
 //======= Header 
 function toggleNav() {
